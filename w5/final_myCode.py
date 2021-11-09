@@ -21,7 +21,7 @@ def game():
 
     while guess_amount != 0:
         guess = input("Make a guess: ")
-        if guess == theNumber:
+        if guess = theNumber:
             print(f"You win the number was {theNumber}")
             guess_amount = 0
         elif guess >= theNumber:
